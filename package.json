@@ -1,0 +1,14 @@
+{
+  "name": "to-do-list-mvc-node-mongo",
+  "version": "1.0.0",
+  "description": "Projeto lista de tarefas usando nodejs e mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "diogoscastro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
