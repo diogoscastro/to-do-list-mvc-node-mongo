@@ -4,7 +4,7 @@ Lista de Tarefas com Node.js, Express, MongoDB e EJS
 
 Descrição do Projeto
 
-Este é um projeto de lista de tarefas simples desenvolvido usando Node.js, Express, MongoDB e EJS. 
+Este é um projeto de lista de tarefas desenvolvido usando Node.js, Express, MongoDB e EJS. 
 Ele permite que os usuários criem, visualizem, editem e excluam suas tarefas.
 
 Funcionalidades
