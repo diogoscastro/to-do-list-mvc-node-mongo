@@ -11,6 +11,13 @@
     <title>To Do List</title>
   </head>
   <body>
+    <% if (message != "") {%>
+    <section class="message message-<%= type %>">
+      <p><%= message %></p>
+      <span id="close-message"><i class="bi bi-x-circle"></i></span>
+    </section>
+    <% } %>
+
     <header>
       <% if (task == null) { %>
       <h1>TO DO LIST</h1>
@@ -35,9 +42,11 @@
     <section id="tasks">
       <ul>
         <% taskList.forEach((task) => { %>
-        <li>
+        <li class="check-<%= task.check %>">
           <div>
-            <a href=""><%= task.task %></a>
+            <a href="/check/<%= task._id %>" class="check-<%= task.check %>"
+              ><%= task.task %></a
+            >
             <span>Criado em: <%= task.date.toLocaleDateString('pt-br') %></span>
           </div>
 
